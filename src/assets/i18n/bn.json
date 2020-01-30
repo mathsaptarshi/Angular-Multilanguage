@@ -1,0 +1,10 @@
+{
+  "APP":{
+    "SELECT_LANG" : "ভাষা নির্বাচন কর"
+  },
+  "HEADER":{
+    "TITLE" : "স্বাগত",
+    "TEXT" : "We will rock you",
+    "SELECT" : "Select Language"
+  }
+}

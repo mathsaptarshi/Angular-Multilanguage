@@ -1,0 +1,10 @@
+{
+  "APP":{
+    "SELECT_LANG" : "Select Language"
+  },
+  "HEADER":{
+    "TITLE" : "Welcome ",
+    "TEXT" : "We will rock you",
+    "SELECT" : "Select Language"
+  }
+}

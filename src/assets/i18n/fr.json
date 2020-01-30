@@ -1,0 +1,10 @@
+{
+  "APP":{
+  "SELECT_LANG" : "Choisir la langue"
+  },
+  "HEADER":{
+    "TITLE" : "Bienvenue",
+    "TEXT" : "ক্লিক ক﻿রুন",
+    "SELECT" : "Select Language"
+  }
+}
