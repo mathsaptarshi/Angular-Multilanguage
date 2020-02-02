@@ -24,13 +24,17 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/css/jquery-ui.min.css",
+              "node_modules/summernote/dist/summernote-lite.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
               "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "src/styles.css"
             ],
             "scripts": [
-              "./node_modules/jquery/dist/jquery.min.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/summernote/dist/summernote-lite.js",
               "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js",
+              "src/assets/js/jquery-ui.min.js"
             ]
           },
           "configurations": {

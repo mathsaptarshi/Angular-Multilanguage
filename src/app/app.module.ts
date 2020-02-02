@@ -1,5 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+
+import { NgxSummernoteModule } from 'ngx-summernote';
 
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
@@ -17,6 +20,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { CustomerLoginComponent } from './customer-login/customer-login.component';
 
 export function HttpLoaderFactory(http : HttpClient){
   return new TranslateHttpLoader(http);
@@ -29,12 +33,16 @@ export function HttpLoaderFactory(http : HttpClient){
     FooterComponent,
     HomeComponent,
     PageNotFoundComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    CustomerLoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
     HttpClientModule,
+    NgxSummernoteModule,
     TranslateModule.forRoot({
       loader : {
         provide : TranslateLoader,
@@ -44,6 +52,7 @@ export function HttpLoaderFactory(http : HttpClient){
     }),
     BrowserAnimationsModule,
     CarouselModule.forRoot()
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
